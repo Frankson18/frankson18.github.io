@@ -9,7 +9,7 @@
 /*===== Colores =====*/
 :root{
   --first-color: #4070F4;
-  --second-color: #0E2431;
+  --second-color: #fff;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -116,7 +116,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #091018;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -136,7 +136,7 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #091018;
     transition: .5s;
   }
 }
@@ -216,7 +216,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 295px;
+  width: 380px;
 }
 
 /*BUTTONS*/
@@ -268,7 +268,7 @@ img{
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  box-shadow: 0 4px 25px rgba(255, 255, 255, 0.05);
 }
 .skills__icon{
   font-size: 2rem;
@@ -288,7 +288,7 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills__python{
   width: 95%;
 }
 .skills__css{
@@ -343,11 +343,12 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
+  background-color: #091018;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 .footer__title{
   font-size: 2rem;
@@ -414,8 +415,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
-    bottom: 15%;
+    width: 650px;
+    bottom: 25%;
   }
 
   .about__container, .skills__container{
