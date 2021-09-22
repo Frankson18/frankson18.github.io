@@ -216,7 +216,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 380px;
+  width: 280px;
 }
 
 /*BUTTONS*/
@@ -415,8 +415,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 650px;
-    bottom: 25%;
+    width: 450px;
+    bottom: 35%;
   }
 
   .about__container, .skills__container{
