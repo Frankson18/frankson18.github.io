@@ -1,169 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Frankson Souza</title>
-    </head>
-    <body style="background-color: #0E141B;">
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    <title>Frankson Souza</title>
+</head>
+
+<body style="background-color: #0E141B;">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Frankson Souza</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#formacao" class="nav__link">Formação</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+                    <!--<li class="nav__item"><a href="#contact" class="nav__link">Contate-me</a></li>-->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Oi,<br>Eu sou <span class="home__title-color">Frankson</span><br>Eng. de
+                    Computação</h1>
+
+                <a href="mailto:frankson31@gmail.com" class="button">Contate-me</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/frankson-souza/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
+                <a href="https://github.com/Frankson18" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Sobre</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo">Frankson Souza</a>
+                    <h2 class="about__subtitle">Ola! Eu sou Frankson</h2>
+                    <p class="about__text", align="justify"> Gosto de estar sempre entre família e amigos. No meu tempo livre 
+                        aprecio conteúdos com livros, filmes e séries, procuro sempre estar em evolução procurando
+                        novos conhecimentos. Sou comunicativo e prezo pela inclusão. Como todo bom programador sou motivado a
+                        resolver novas desafios. já participei da Include Engenharia, uma empresa júnior da UFRN 
+                        e também com bolsistas de iniciação científica na área de Aprendizado por reforço.</p>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contacte-me</a></li>
-                    </ul>
-                </div>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Oi,<br>Eu sou <span class="home__title-color">Frankson</span><br>Eng. de Computação</h1>
-
-                    <a href="#" class="button">Contacte-me</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/frankson-souza/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
-                    <a href="https://github.com/Frankson18" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">Sobre</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Eu sou Frankson</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Habilidades</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Habilidades Profissionais</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-python-plain skills__icon"></i>
-                                <span class="skills__name">PYTHON</span>
-                            </div>
-                            <div class="skills__bar skills__python">
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Habilidades Profissionais</h2>
+                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
+                        vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="devicon-python-plain skills__icon"></i>
+                            <span class="skills__name">PYTHON</span>
+                        </div>
+                        <!--<div class="skills__bar skills__python">
 
                             </div>
                             <div>
                                 <span class="skills__percentage">50%</span>
-                            </div>
+                            </div>-->
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="devicon-cplusplus-plain skills__icon"></i>
+                            <span class="skills__name">C++</span>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-cplusplus-plain skills__icon"></i>
-                                <span class="skills__name">C++</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
+                        <!--<div class="skills__bar skills__ux">
                                 
                             </div>
                             <div>
                                 <span class="skills__percentage">85%</span>
-                            </div>
+                            </div>-->
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="devicon-jupyter-plain skills__icon"></i>
+                            <span class="skills__name">jUPYTER NOTEBOOK</span>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class="devicon-jupyter-plain skills__icon"></i>
-                                <span class="skills__name">jUPYTER NOTEBOOK</span>
-                            </div>
-                            <div class="skills__bar skills__css">
+                        <!--<div class="skills__bar skills__css">
                                 
                             </div>
                             <div>
                                 <span class="skills__percentage">85%</span>
-                            </div>
+                            </div>-->
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
+                        <!--<div class="skills__bar skills__js">
                                 
                             </div>
                             <div>
                                 <span class="skills__percentage">65%</span>
+                            </div>-->
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="formacao">
+            <h2 class="section-title">Formação Acadêmica</h2>
+            <div class="container">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">2020 - pretenção de terminor em 2022</h3>
+                                <h1>Eng. de computação</h1>
+                                <p class="skills__text">Universidade Federal do Rio Grande do Norte
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">2017-2020</h3>
+                                <h1>Bacharelado em Ciências e Tecnologia (C&T)</h1>
+                                <p class="skills__text"> Universidade Federal do Rio Grande do Norte
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h3 class="date">2015-2017</h3>
+                                <h1>Técnico em Eletrotécnica</h1>
+                                <p class="skills__text">Centro Tecnológico do Rio Grande do Norte (CENTERN)
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Projetos</h2>
 
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </div>
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projetos</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/work1.jpg" alt="">
                 </div>
-            </section>
+                <div class="work__img">
+                    <img src="assets/img/work2.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work3.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work4.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work5.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work6.jpg" alt="">
+                </div>
+            </div>
+        </section>
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
+        <!--===== CONTACT =====-->
+        <!--<section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
@@ -174,25 +219,27 @@
                         <input type="button" value="Enviar" class="contact__button button">
                     </form>
                 </div>
-            </section>
-        </main>
+            </section>-->
+    </main>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Frankson Souza</p>
-            <div class="footer__social">
-                <a href="https://www.youtube.com/channel/UCn2_6-UJslk8KdOYDM11w8w" class="footer__icon"><i class='bx bxl-youtube'></i></a>
-                <a href="https://www.instagram.com/frankson14/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://github.com/Frankson18" class="footer__icon"><i class='bx bxl-github' ></i></a>
-            </div>
-            <p>&#169; 2021 copyright all right reserved</p>
-        </footer>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Frankson Souza</p>
+        <div class="footer__social">
+            <a href="https://www.youtube.com/channel/UCn2_6-UJslk8KdOYDM11w8w" class="footer__icon"><i
+                    class='bx bxl-youtube'></i></a>
+            <a href="https://www.instagram.com/frankson14/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Frankson18" class="footer__icon"><i class='bx bxl-github'></i></a>
+        </div>
+        <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
