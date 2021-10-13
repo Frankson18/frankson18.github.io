@@ -119,7 +119,7 @@ img{
   box-sizing: border-box;
 }
 .container {
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -153,6 +153,12 @@ img{
   font-weight: 300;
   margin-bottom: 10px;
   letter-spacing: 2px;
+}
+
+@media only screen and(min-width: 1024px) {
+  .container {
+    min-height: 100vh;
+  }
 }
 @media only screen and (min-width: 768px) {
   .timeline:before {
@@ -431,7 +437,38 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
+.work__div{
+  min-height: 220px;
+  border-radius: .5rem;
+  background-color: #091018;
+}
+.work__texto{
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 5px;
+}
 
+.work__icon{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color: white;
+}
+.work__ling{
+  display: flex;
+  align-items: center;
+  padding:2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 8px;
+  background-color: #4070F4;
+}
+.work__text{
+  font-size: 0.7rem;
+  text-align: justify;
+  padding: 4px;
+}
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
