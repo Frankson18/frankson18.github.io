@@ -1,2 +1,2 @@
 # Portfolio Responsive 
-[Bedimcode](frankson18.githuub.io)
+[PORTFOLIO](frankson18.github.io)
