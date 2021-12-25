@@ -84,7 +84,7 @@ img{
   position: relative;
   font-size: var(--h2-font-size);
   color: var(--first-color);
-  margin-top: var(--mb-1);
+  margin-top: var(--mb-4);
   margin-bottom: var(--mb-1);
   text-align: center;
 }
@@ -341,7 +341,7 @@ img{
 .home__img{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 10%;
   width: 280px;
 }
 
@@ -427,7 +427,7 @@ img{
   width: 85%;
 }
 .skills__img{
-  border-radius: .5rem;
+  width: 0px;
 }
 
 /* ===== WORK =====*/
@@ -616,6 +616,12 @@ img{
   .contact__container{
     justify-items: center;
   }
+
+  .skills__img{
+    border-radius: .5rem;
+    width: 350px;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1024px){
@@ -628,6 +634,7 @@ img{
     margin-right: auto;
   }
   .home__img{
+    width: 400px;
     right: 10%;
   }
 }
